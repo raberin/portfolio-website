@@ -72,6 +72,42 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Roenz Custom */
+	#navbar {
+		overflow: hidden;
+		background-color: gray;
+		position: fixed; /* Set the navbar to fixed position */
+		top: 0; /* Position the navbar at the top of the page */
+		width: 100%;
+		z-index: 1000;
+
+
+
+	}
+
+	@media screen and (max-width: 720px) {
+		#navbar  {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly
+		}
+	}
+
+	#navbar a:hover {
+		background: silver;
+		color: #1ebdd1;
+	}
+
+	#navbar a {
+		/* float: left; */
+		/* display: block; */
+		color: black;
+		text-align: center;
+		padding: 14px 20px;
+		text-decoration: none;
+	}
+
+
 /* Basic */
 
 	@-ms-viewport {
